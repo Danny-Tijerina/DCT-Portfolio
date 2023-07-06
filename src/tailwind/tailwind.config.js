@@ -2,6 +2,8 @@ module.exports = {
     content: [
         './src/pug/*.pug',
         './src/html/*.html',
+        './src/pages/*.js',
+        './public/*.html',
     ],
     
     theme: {
