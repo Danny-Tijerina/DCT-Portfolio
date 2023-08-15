@@ -78,7 +78,9 @@
   text-transform: none;
   border-bottom: 2px solid #c80000
 }
-.1 {
-  background-color: #0cf
+.bg {
+  background-image: url("../images/DannyPlan-pfp.png");
+  background-repeat: no-repeat;
+  background-color: #c0eac6
 }
 
