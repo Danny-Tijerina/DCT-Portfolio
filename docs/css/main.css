@@ -80,7 +80,9 @@
 }
 .bg {
   background-image: url("../images/DannyPlan-pfp.png");
-  background-repeat: no-repeat;
-  background-color: #c0eac6
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-color: rgba(144,213,226,.904);
+  opacity: 1
 }
 
