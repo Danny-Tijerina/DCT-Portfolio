@@ -3,6 +3,10 @@
 .style {
   text-align: center
 }
+.size,
+.style {
+  background-color: rgba(255,255,255,0)
+}
 .button {
   z-index: 0
 }
@@ -19,13 +23,20 @@
   left: auto;
   margin: 250px;
   font-size: 50px;
-  background-color: rgba(255,255,255,0);
   box-shadow: #0cf 0 0 0 0;
   text-shadow: rgba(0,204,255,0) 0 0 0
 }
 .width {
   width: 100px;
   height: 100px
+}
+.Size,
+.size {
+  height: 75px;
+  width: 75px
+}
+.size {
+  box-shadow: #000 0 0 0 0
 }
 .color {
   color: rgba(251,224,236,0);
@@ -36,12 +47,6 @@
 }
 .BG.color {
   background-color: #000
-}
-.size {
-  height: 70px;
-  width: 70px;
-  background-color: rgba(255,255,255,0);
-  box-shadow: #000 0 0 0 0
 }
 .Button {
   background-color: rgba(88,253,223,.455);
@@ -82,8 +87,6 @@
   background-color: #000
 }
 .bg {
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
   opacity: 1;
   cursor: default
 }
@@ -97,5 +100,9 @@
 }
 .bold {
   font-weight: 700
+}
+.line {
+  text-decoration-line: none;
+  background-color: #f6f6f6
 }
 
