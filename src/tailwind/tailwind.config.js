@@ -1,12 +1,18 @@
 module.exports = {
     content: [
-        './src/pug/*.pug',
-        './src/html/*.html',
-        './src/pages/*.js',
-        './public/*.html',
+        "./src/pug/*.pug",
+        "./src/html/*.html"
     ],
-    
     theme: {
+        extend: {
+    "backgroundColor": {
+        "body": "#000;"
+    }
+}
+    },
+    presets: [
+        {
+        theme: {
         screens: {
             sm: '640px',
             md: '768px',
@@ -17,10 +23,8 @@ module.exports = {
         colors: {
             current: 'currentColor',
             transparent: 'transparent',
-
             black: '#000',
             white: '#fff',
-
             darkCoolGray: {
                 50: '#F5F6F7',
                 100: '#EBEDEF',
@@ -169,7 +173,7 @@ module.exports = {
         },
         backgroundColor: theme => ({
             ...theme('colors'),
-            body: '#000',
+            body: '#fff',
         }),
         backgroundPosition: {
             bottom: 'bottom',
@@ -597,4 +601,6 @@ module.exports = {
     },
     corePlugins: {},
     plugins: [],
+}
+    ]
 }

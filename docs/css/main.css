@@ -1,21 +1,19 @@
-.button,
-.position,
-.style {
-  text-align: center
-}
 .size,
 .style {
   background-color: rgba(255,255,255,0)
 }
 .button {
+  text-align: center;
   z-index: 0
 }
 .position {
+  text-align: left;
   top: 0;
   opacity: 1;
   width: 1200px
 }
 .style {
+  text-align: center;
   color: #fff;
   top: auto;
   right: auto;
@@ -26,17 +24,18 @@
   box-shadow: #0cf 0 0 0 0;
   text-shadow: rgba(0,204,255,0) 0 0 0
 }
+.size {
+  height: 75px;
+  width: 75px;
+  box-shadow: #000 0 0 0 0
+}
 .width {
   width: 100px;
   height: 100px
 }
-.Size,
-.size {
+.Size {
   height: 75px;
   width: 75px
-}
-.size {
-  box-shadow: #000 0 0 0 0
 }
 .color {
   color: rgba(251,224,236,0);
